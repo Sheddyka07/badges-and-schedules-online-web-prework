@@ -10,7 +10,7 @@ end
 
 
 def batch_badge_creator(name)
-  
+  badges = guestList.map
   
   
   
