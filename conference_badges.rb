@@ -8,4 +8,4 @@ def batch_badge_creator(guestList)
   
   
   
-def assign_rooms  
+def assign_rooms(1..7)  
