@@ -6,3 +6,6 @@ end
 
 def batch_badge_creator(guestList)
   
+  
+  
+def assign_rooms  
