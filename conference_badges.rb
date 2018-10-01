@@ -10,3 +10,4 @@ def batch_badge_creator(guestList)
   guestList.each {|x| badge_maker(x)}
   return badges 
 end
+
