@@ -10,11 +10,14 @@ end
 
 
 def batch_badge_creator(guestList)
-  name = guestlist.at(glLength)
- 
-  
-  
-  
+  if glLength >= 0
+    name = guestlist.at(glLength)
+    glLength -= 1 
+    puts badge_maker
+  else
+    puts "all badges are made"
+  end
+end 
   
 roomNum = [1, 2, 3, 4, 5, 6, 7] 
 
