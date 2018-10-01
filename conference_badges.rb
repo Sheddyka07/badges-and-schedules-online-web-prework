@@ -7,6 +7,6 @@ end
 
 
 def batch_badge_creator
-  badges = guestList.map {|x| badge_maker(x)}
+  badges = guestList.map {|name| badge_maker(name)}
 end 
   
