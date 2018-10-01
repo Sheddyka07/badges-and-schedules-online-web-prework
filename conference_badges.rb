@@ -10,14 +10,18 @@ end
   end
   return badges
 end
- def assign_rooms(attendees)
+
+
+def assign_rooms(attendees)
   room_assignments = []
   attendees.each_with_index do |name, number|
     room_assignments.push("Hello, #{name}! You'll be assigned to room #{number+1}!")
   end
   room_assignments
 end
- def printer(names)
+
+
+def printer(names)
   badge = batch_badge_creator(names)
   schedule = assign_rooms(names)
    badge.each {|bad| puts bad}
