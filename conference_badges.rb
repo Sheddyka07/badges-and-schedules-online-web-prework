@@ -19,7 +19,7 @@ def room_assignments
 end 
 
 def assign_rooms(room_assignments)
-  room_assignments.each {|x| roomMessage(x)}
+  room_assignments.each {|x| puts (x)}
   return roomMessage
 end 
   
