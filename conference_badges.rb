@@ -11,6 +11,8 @@ def batch_badge_creator(guestList)
   return badges 
 end
 
+
+
 def room_assignments
   room_assignments = [1, 2, 3, 4, 5, 6, 7]
 end 
