@@ -13,16 +13,11 @@ badge_messages
 end
 
 
-def roomMessage
-  return "Hello, #{name}! You'll be assigned to room #{room_assignments}!"
-end 
+room_assignments = [1, 2, 3, 4, 5, 6, 7]
 
-def room_assignments
-  room_assignments = [1, 2, 3, 4, 5, 6, 7]
-end 
-
-def assign_rooms(room_assignments)
-  room_assignments.each {|x| puts (x)}
+def assign_rooms(room)
+  room_assignments.each do |room|
+    roomMessage.push()
   return roomMessage
 end 
   
