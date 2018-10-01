@@ -13,16 +13,6 @@ badge_messages
 end
 
 
-
-
-
-
-
-
-
-
-
-
 def roomMessage
   return "Hello, #{name}! You'll be assigned to room #{room_assignments}!"
 end 
