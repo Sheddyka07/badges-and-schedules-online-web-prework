@@ -21,5 +21,6 @@ end
 
 def assign_rooms(room_assignments)
   room_assignments.each {|x| roomMessage(x)}
-  return 
+  return roomMessage
+end 
   
