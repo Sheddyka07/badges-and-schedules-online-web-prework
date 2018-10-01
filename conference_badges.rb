@@ -1,11 +1,11 @@
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
 def badge_maker(attendees)
   return "Hello, my name is #{attendees}."
 end 
 
-guestList = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
-def batch_badge_creator(guestList)
-  guestList.each {|x| badge_maker(x)}
+def batch_badge_creator(attendees)
+  attendees.each {|x| badge_maker(x)}
   return badges 
 end
 
