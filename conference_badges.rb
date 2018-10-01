@@ -1,5 +1,5 @@
-def badge_maker(guestList)
-  return "Hello, my name is #{name}."
+def badge_maker(attendees)
+  return "Hello, my name is #{attendees}."
 end 
 
 guestList = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
