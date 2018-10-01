@@ -20,7 +20,7 @@ def assign_rooms(name, room)
   room_assignments.each do |room|
     roomMessage.push("Hello, #{name}! You'll be assigned to room #{room}!")
   end 
-  
+  roomMessage
 end 
   
   
