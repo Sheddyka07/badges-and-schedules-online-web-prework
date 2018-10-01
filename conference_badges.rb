@@ -13,10 +13,10 @@ def batch_badge_creator(name)
   if glLength >= 0
     name = guestlist.at(glLength)
     glLength -= 1 
-
+  puts badge_maker
     
   else
-    puts badge_maker
+   
   end
 end 
   
