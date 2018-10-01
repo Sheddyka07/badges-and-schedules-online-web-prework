@@ -6,5 +6,7 @@ def guestList
   guestList = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 end 
 
-def batch_badge_creator
-
+def batch_badge_creator(guestList)
+  guestList.each {|x| badge_maker(x)}
+  return badges 
+end
