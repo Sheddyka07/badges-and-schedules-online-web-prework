@@ -15,7 +15,7 @@ def batch_badge_creator(guestList)
     glLength -= 1 
     puts badge_maker
   else
-    return batch_badge_creator
+    
   end
 end 
   
