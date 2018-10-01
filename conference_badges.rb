@@ -1,27 +1,16 @@
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
 def badge_maker(name)
-  return "Hello, my name is #{name}."
-end 
+ "Hello, my name is #{name}."
+end
 
 def batch_badge_creator(attendees)
-  badge_messages = []
-  attendees.each do |name|
-    badge_messages.push("Hello, my name is #{name}.")
+  badges.each {|attendees| "Hello, my name is #{attendees}"}
 end
-badge_messages
+ # should return a list of welcome messages and room assignments
+def assign_rooms(attendees)
+    room_assignments.each_with_index {|attendees, room_assignments| "Hello, #{attendees}! You'll be assigned to #{room_assignments+1}!"}
 end
-
-
-room_assignments = [1, 2, 3, 4, 5, 6, 7]
-
-def assign_rooms(attendees, room_assignments)
-  roomMessage = []
-  room_assignments.each do |name|
-    roomMessage.push("Hello, #{name}! You'll be assigned to room #{room}!")
-  end 
-  roomMessage
-end 
-  
-  
-
+ # should puts the list of badges and room_assignments
+def printer(attendees)
+  batch_badge_creator(attendees).each {|badge| puts badge}
+   assign_rooms(attendees).each {|room_assignment| puts room_assignment}
+end
