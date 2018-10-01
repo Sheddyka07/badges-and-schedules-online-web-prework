@@ -15,9 +15,9 @@ end
 
 room_assignments = [1, 2, 3, 4, 5, 6, 7]
 
-def assign_rooms(name, room)
+def assign_rooms(attendees, room_assignments)
   roomMessage = []
-  room_assignments.each do |room|
+  room_assignments.each do |name|
     roomMessage.push("Hello, #{name}! You'll be assigned to room #{room}!")
   end 
   roomMessage
