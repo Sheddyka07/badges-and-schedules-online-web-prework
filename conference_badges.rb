@@ -10,7 +10,7 @@ end
 
 
 def batch_badge_creator(guestList)
-  name = guestlist(glLength)
+  name = guestlist.at(glLength)
  
   
   
